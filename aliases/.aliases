@@ -3,25 +3,24 @@
 alias ll='ls -lah'                 # Lista arquivos com detalhes
 alias la='ls -A'                   # Lista arquivos, incluindo ocultos
 alias l='ls -l'                    # Lista arquivos em formato longo
-alias mkdir='mkdir -p'
 
 # Comandos de Navegação
 
 alias ç='cd'                       # Um "C" com "~" em baixo
-alias ..='cd ..'                   # Volta um diretório
 alias ...='cd ../..'               # Volta dois diretórios
+alias ....='cd ../../..'           # Volta três diretórios
 
 # Git
 
-alias gst='git status'             # Ver status do git
-alias gl='git log'                 # Ver log do git
-alias gp='git pull'                # Puxar as últimas alterações
-alias gco='git checkout'           # Alternar branches
+alias gad='git add'                # 
+alias gadd='git add'               # 
 alias gcm='git commit -m'          # Commitar com mensagem
+alias gpsh='git push'              #
+alias gp='git pull'                # Puxar as últimas alterações
 
 # Sistema
 
-alias h='history'                  # Exibir histórico
+alias h='cat ~/.history_zsh'       # Cat no histórico
 alias e='exit'                     # Encerra a sessão do terminal
 alias clr='clear'                  # Limpar a tela
 alias reboot='sudo reboot'         # Porque merdas precisa de sudo
@@ -30,7 +29,7 @@ alias free='free -h'               # Exibir memória disponível de forma legív
 
 # Pacotes
 
-alias zup='sudo zypper refresh && sudo zypper dup --allow-vendor-change && echo "rode zypper clean --all"'
+alias zup='sudo zypper refresh && sudo zypper dup --allow-vendor-change && flatpak update && echo "rode zypper clean --all"'
 
 # Programas
 
