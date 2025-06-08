@@ -23,52 +23,14 @@ alias gp='git pull'                # Puxar as últimas alterações
 alias h='cat ~/.history_zsh'       # Cat no histórico
 alias e='exit'                     # Encerra a sessão do terminal
 alias clr='clear'                  # Limpar a tela
-alias reboot='sudo reboot'         # Porque merdas precisa de sudo
 alias df='df -h'                   # Exibir uso de disco de forma legível
 alias free='free -h'               # Exibir memória disponível de forma legível
 
 # Pacotes
 
-alias zup='sudo zypper refresh && sudo zypper dup --allow-vendor-change && flatpak update && echo "rode zypper clean --all"'
 
 # Programas
 
-alias vim='nvim'                   # nvim é muito impratico
 alias ff='fastfetch'               # Sempre inverte o "A" e o "E"
 alias wifi='sudo nmtui'            # Como lembra o nome disso?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# finge que não viu isso
-alias zh='echo "
-  # │ Comando                            │ Descrição
-────┼────────────────────────────────────┼────────────────────────────────────────────────────────────
-  1 │ zup                                │ Alias: refresh + dup com --allow-vendor-change
-  2 │ zypper refresh                     │ Atualiza a lista de pacotes dos repositórios
-  3 │ zypper dup                         │ Dist-upgrade (recomendado no Tumbleweed)
-  4 │ zypper in <nome>                   │ Instala pacotes
-  5 │ zypper rm -u <nome>                │ Remove pacote e dependências órfãs
-  6 │ zypper search <nome>               │ Busca por um pacote
-  7 │ zypper info <nome>                 │ Mostra informações detalhadas de um pacote
-  8 │ zypper clean --all                 │ Limpa o cache de pacotes
-  9 │ zypper ps                          │ Mostra processos usando arquivos atualizados
- 10 │ zypper packages --orphaned         │ Lista pacotes órfãos
-"'
