@@ -12,11 +12,7 @@ alias ....='cd ../../..'           # Volta três diretórios
 
 # Git
 
-alias gad='git add'                # 
-alias gadd='git add'               # 
 alias gcm='git commit -m'          # Commitar com mensagem
-alias gpsh='git push'              #
-alias gp='git pull'                # Puxar as últimas alterações
 
 # Sistema
 
@@ -25,9 +21,6 @@ alias e='exit'                     # Encerra a sessão do terminal
 alias clr='clear'                  # Limpar a tela
 alias df='df -h'                   # Exibir uso de disco de forma legível
 alias free='free -h'               # Exibir memória disponível de forma legível
-
-# Pacotes
-
 
 # Programas
 
